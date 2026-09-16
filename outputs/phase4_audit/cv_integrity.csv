@@ -1,0 +1,6 @@
+outer_fold,train_size,test_size,train_positive,test_positive,test_negative,stratified,random_state,shuffle
+0,61,16,26,7,9,True,42,True
+1,61,16,26,7,9,True,42,True
+2,62,15,27,6,9,True,42,True
+3,62,15,27,6,9,True,42,True
+4,62,15,26,7,8,True,42,True

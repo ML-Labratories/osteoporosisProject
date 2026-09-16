@@ -1,0 +1,4 @@
+model,roc_auc_min,roc_auc_max,roc_auc_std,sensitivity_min,sensitivity_max,specificity_min,specificity_max,balanced_accuracy_std,brier_score_std,n_folds
+logistic_regression,0.571429,0.833333,0.099287,0.142857,0.714286,0.777778,0.888889,0.107098,0.029947,5
+linear_svm,0.571429,0.814815,0.091281,0.0,0.666667,0.777778,1.0,0.096486,,5
+random_forest,0.507937,0.730159,0.095047,0.166667,0.714286,0.666667,0.888889,0.080688,0.0274,5
