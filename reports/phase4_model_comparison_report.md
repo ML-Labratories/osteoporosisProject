@@ -12,7 +12,7 @@ No model is declared superior; results are presented descriptively.
 
 ## Dataset
 
-- **Participants (N):** 46
+- **Participants (N):** 77
 - **Target:** `HighFallRisk`
 - **Class distribution:** 44 Controls (0), 33 Fallers (1)
 - **Features:** Age, Gender, Total x, Totaly, TUG
