@@ -1,0 +1,76 @@
+outer_fold,model,feature,base_auc,permuted_auc,importance
+0,logistic_regression,Age,0.68254,0.650794,0.031746
+0,logistic_regression,Gender,0.68254,0.714286,-0.031746
+0,logistic_regression,Total x,0.68254,0.777778,-0.095238
+0,logistic_regression,Totaly,0.68254,0.698413,-0.015873
+0,logistic_regression,TUG,0.68254,0.365079,0.31746
+0,random_forest,Age,0.753968,0.714286,0.039683
+0,random_forest,Gender,0.753968,0.793651,-0.039683
+0,random_forest,Total x,0.753968,0.777778,-0.02381
+0,random_forest,Totaly,0.753968,0.634921,0.119048
+0,random_forest,TUG,0.753968,0.52381,0.230159
+1,logistic_regression,Age,0.587302,0.444444,0.142857
+1,logistic_regression,Gender,0.587302,0.52381,0.063492
+1,logistic_regression,Total x,0.587302,0.603175,-0.015873
+1,logistic_regression,Totaly,0.587302,0.539683,0.047619
+1,logistic_regression,TUG,0.587302,0.603175,-0.015873
+1,random_forest,Age,0.492063,0.444444,0.047619
+1,random_forest,Gender,0.492063,0.460317,0.031746
+1,random_forest,Total x,0.492063,0.603175,-0.111111
+1,random_forest,Totaly,0.492063,0.492063,0.0
+1,random_forest,TUG,0.492063,0.571429,-0.079365
+2,logistic_regression,Age,0.833333,0.814815,0.018519
+2,logistic_regression,Gender,0.833333,0.833333,0.0
+2,logistic_regression,Total x,0.833333,0.833333,0.0
+2,logistic_regression,Totaly,0.833333,0.833333,0.0
+2,logistic_regression,TUG,0.833333,0.703704,0.12963
+2,random_forest,Age,0.574074,0.611111,-0.037037
+2,random_forest,Gender,0.574074,0.555556,0.018519
+2,random_forest,Total x,0.574074,0.537037,0.037037
+2,random_forest,Totaly,0.574074,0.703704,-0.12963
+2,random_forest,TUG,0.574074,0.277778,0.296296
+3,logistic_regression,Age,0.648148,0.481481,0.166667
+3,logistic_regression,Gender,0.648148,0.685185,-0.037037
+3,logistic_regression,Total x,0.648148,0.62963,0.018519
+3,logistic_regression,Totaly,0.648148,0.666667,-0.018519
+3,logistic_regression,TUG,0.648148,0.240741,0.407407
+3,random_forest,Age,0.611111,0.675926,-0.064815
+3,random_forest,Gender,0.611111,0.537037,0.074074
+3,random_forest,Total x,0.611111,0.62963,-0.018519
+3,random_forest,Totaly,0.611111,0.731481,-0.12037
+3,random_forest,TUG,0.611111,0.314815,0.296296
+4,logistic_regression,Age,0.732143,0.553571,0.178571
+4,logistic_regression,Gender,0.732143,0.732143,0.0
+4,logistic_regression,Total x,0.732143,0.732143,0.0
+4,logistic_regression,Totaly,0.732143,0.75,-0.017857
+4,logistic_regression,TUG,0.732143,0.267857,0.464286
+4,random_forest,Age,0.508929,0.678571,-0.169643
+4,random_forest,Gender,0.508929,0.455357,0.053571
+4,random_forest,Total x,0.508929,0.616071,-0.107143
+4,random_forest,Totaly,0.508929,0.482143,0.026786
+4,random_forest,TUG,0.508929,0.285714,0.223214
+0,linear_svm,Age,,,
+0,linear_svm,Gender,,,
+0,linear_svm,Total x,,,
+0,linear_svm,Totaly,,,
+0,linear_svm,TUG,,,
+1,linear_svm,Age,,,
+1,linear_svm,Gender,,,
+1,linear_svm,Total x,,,
+1,linear_svm,Totaly,,,
+1,linear_svm,TUG,,,
+2,linear_svm,Age,,,
+2,linear_svm,Gender,,,
+2,linear_svm,Total x,,,
+2,linear_svm,Totaly,,,
+2,linear_svm,TUG,,,
+3,linear_svm,Age,,,
+3,linear_svm,Gender,,,
+3,linear_svm,Total x,,,
+3,linear_svm,Totaly,,,
+3,linear_svm,TUG,,,
+4,linear_svm,Age,,,
+4,linear_svm,Gender,,,
+4,linear_svm,Total x,,,
+4,linear_svm,Totaly,,,
+4,linear_svm,TUG,,,

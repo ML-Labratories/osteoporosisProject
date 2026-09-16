@@ -1,0 +1,26 @@
+scenario,removed_feature,remaining_features,outer_fold,model,roc_auc,pr_auc,sensitivity,specificity,balanced_accuracy,n_train,n_test
+remove_Age,Age,Gender + Total x + Totaly + TUG,0,logistic_regression,0.650794,0.506744,0.571429,0.666667,0.619048,61,16
+remove_Age,Age,Gender + Total x + Totaly + TUG,1,logistic_regression,0.444444,0.491321,0.285714,0.777778,0.531746,61,16
+remove_Age,Age,Gender + Total x + Totaly + TUG,2,logistic_regression,0.740741,0.519964,0.666667,0.777778,0.722222,62,15
+remove_Age,Age,Gender + Total x + Totaly + TUG,3,logistic_regression,0.759259,0.465006,0.0,1.0,0.5,62,15
+remove_Age,Age,Gender + Total x + Totaly + TUG,4,logistic_regression,0.785714,0.473706,0.428571,1.0,0.714286,62,15
+remove_Gender,Gender,Age + Total x + Totaly + TUG,0,logistic_regression,0.698413,0.514232,0.714286,0.777778,0.746032,61,16
+remove_Gender,Gender,Age + Total x + Totaly + TUG,1,logistic_regression,0.492063,0.495621,0.428571,0.777778,0.603175,61,16
+remove_Gender,Gender,Age + Total x + Totaly + TUG,2,logistic_regression,0.777778,0.517586,0.666667,0.777778,0.722222,62,15
+remove_Gender,Gender,Age + Total x + Totaly + TUG,3,logistic_regression,0.796296,0.464595,0.166667,1.0,0.583333,62,15
+remove_Gender,Gender,Age + Total x + Totaly + TUG,4,logistic_regression,0.75,0.4728,0.428571,1.0,0.714286,62,15
+remove_Total x,Total x,Age + Gender + Totaly + TUG,0,logistic_regression,0.793651,0.485236,0.571429,0.888889,0.730159,61,16
+remove_Total x,Total x,Age + Gender + Totaly + TUG,1,logistic_regression,0.507937,0.493565,0.285714,0.888889,0.587302,61,16
+remove_Total x,Total x,Age + Gender + Totaly + TUG,2,logistic_regression,0.796296,0.516271,0.666667,0.777778,0.722222,62,15
+remove_Total x,Total x,Age + Gender + Totaly + TUG,3,logistic_regression,0.703704,0.471803,0.0,0.888889,0.444444,62,15
+remove_Total x,Total x,Age + Gender + Totaly + TUG,4,logistic_regression,0.767857,0.471954,0.428571,1.0,0.714286,62,15
+remove_Totaly,Totaly,Age + Gender + Total x + TUG,0,logistic_regression,0.666667,0.506424,0.714286,0.777778,0.746032,61,16
+remove_Totaly,Totaly,Age + Gender + Total x + TUG,1,logistic_regression,0.507937,0.491275,0.285714,0.777778,0.531746,61,16
+remove_Totaly,Totaly,Age + Gender + Total x + TUG,2,logistic_regression,0.796296,0.515767,0.666667,0.777778,0.722222,62,15
+remove_Totaly,Totaly,Age + Gender + Total x + TUG,3,logistic_regression,0.814815,0.464811,0.166667,1.0,0.583333,62,15
+remove_Totaly,Totaly,Age + Gender + Total x + TUG,4,logistic_regression,0.839286,0.477671,0.428571,1.0,0.714286,62,15
+remove_TUG,TUG,Age + Gender + Total x + Totaly,0,logistic_regression,0.301587,0.508318,0.285714,0.666667,0.47619,61,16
+remove_TUG,TUG,Age + Gender + Total x + Totaly,1,logistic_regression,0.52381,0.491055,0.0,0.777778,0.388889,61,16
+remove_TUG,TUG,Age + Gender + Total x + Totaly,2,logistic_regression,0.518519,0.486122,0.0,0.888889,0.444444,62,15
+remove_TUG,TUG,Age + Gender + Total x + Totaly,3,logistic_regression,0.5,0.473611,0.166667,1.0,0.583333,62,15
+remove_TUG,TUG,Age + Gender + Total x + Totaly,4,logistic_regression,0.553571,0.480043,0.142857,0.875,0.508929,62,15
