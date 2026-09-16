@@ -1,0 +1,25 @@
+{
+  "features": [
+    "Age",
+    "Gender",
+    "Total x",
+    "Totaly",
+    "TUG"
+  ],
+  "feature_types": {
+    "Age": "numeric",
+    "Gender": "categorical",
+    "Total x": "numeric",
+    "Totaly": "numeric",
+    "TUG": "numeric"
+  },
+  "target": "HighFallRisk",
+  "identifier": "Participant_ID",
+  "order_preserved": true,
+  "leakage_exclusions": [
+    "Participant_ID (identifier)",
+    "HighFallRisk (target)",
+    "سابفه سقوط (leakage review)",
+    "22 completely empty columns"
+  ]
+}
