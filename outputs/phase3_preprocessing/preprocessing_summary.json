@@ -1,0 +1,45 @@
+{
+  "phase": "phase3_preprocessing",
+  "feature_schema": [
+    "Age",
+    "Gender",
+    "Total x",
+    "Totaly",
+    "TUG"
+  ],
+  "target_column": "HighFallRisk",
+  "identifier_column": "Participant_ID",
+  "n_rows": 77,
+  "n_features": 5,
+  "imputation_strategy": "median",
+  "scaler": "RobustScaler",
+  "smote": "disabled",
+  "feature_selection": "disabled",
+  "outlier_removal": "disabled",
+  "leakage_safe": true,
+  "parameters_fitted_on_training_only": true,
+  "medians": {
+    "Age": 78.4517453798768,
+    "Total x": 0.9666666666666668,
+    "Totaly": 106.595,
+    "TUG": 10.78
+  },
+  "scale_params": {
+    "scale_": [
+      5.993155373032167,
+      0.03333333333333355,
+      89.62,
+      3.869999999999999
+    ],
+    "center_": [
+      78.4517453798768,
+      0.9666666666666668,
+      106.595,
+      10.78
+    ]
+  },
+  "target_class_counts": {
+    "0": 44,
+    "1": 33
+  }
+}
