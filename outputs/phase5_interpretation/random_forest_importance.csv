@@ -1,0 +1,26 @@
+outer_fold,feature,importance
+0,Age,0.252838
+0,Gender,0.092457
+0,Total x,0.238804
+0,Totaly,0.357116
+0,TUG,0.058785
+1,Age,0.233846
+1,Gender,0.089795
+1,Total x,0.23155
+1,Totaly,0.412426
+1,TUG,0.032382
+2,Age,0.240422
+2,Gender,0.100286
+2,Total x,0.255007
+2,Totaly,0.368412
+2,TUG,0.035873
+3,Age,0.257282
+3,Gender,0.091593
+3,Total x,0.251246
+3,Totaly,0.364015
+3,TUG,0.035864
+4,Age,0.276132
+4,Gender,0.092088
+4,Total x,0.228985
+4,Totaly,0.37557
+4,TUG,0.027225
