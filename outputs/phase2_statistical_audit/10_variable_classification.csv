@@ -1,0 +1,31 @@
+variable,classification,n_total,n_missing,missing_pct,n_observed,inferred_numeric_type
+Participant_ID,Identifier,77,0,0.0,77,
+Age,Candidate continuous/numeric predictor,77,1,1.3,76,float
+Gender,Candidate binary predictor,77,0,0.0,77,integer
+hight,Completely empty,77,77,100.0,0,
+weight,Completely empty,77,77,100.0,0,
+BMI,Completely empty,77,77,100.0,0,
+Education,Completely empty,77,77,100.0,0,
+Asa,Completely empty,77,77,100.0,0,
+heart Deases,Completely empty,77,77,100.0,0,
+surgery,Completely empty,77,77,100.0,0,
+x1,Completely empty,77,77,100.0,0,
+x2,Completely empty,77,77,100.0,0,
+x3,Completely empty,77,77,100.0,0,
+x4,Completely empty,77,77,100.0,0,
+x5,Completely empty,77,77,100.0,0,
+x6,Completely empty,77,77,100.0,0,
+x7,Completely empty,77,77,100.0,0,
+x8,Completely empty,77,77,100.0,0,
+x9,Completely empty,77,77,100.0,0,
+x10,Completely empty,77,77,100.0,0,
+x11,Completely empty,77,77,100.0,0,
+Total x,Candidate continuous/numeric predictor,77,5,6.49,72,float
+y1,Completely empty,77,77,100.0,0,
+y2,Completely empty,77,77,100.0,0,
+Totaly,Candidate continuous/numeric predictor,77,3,3.9,74,float
+TUG,Candidate continuous/numeric predictor,77,0,0.0,77,float
+سابفه سقوط,Fall-history (leakage review),77,2,2.6,75,integer
+DLRT,Completely empty,77,77,100.0,0,
+Absolut error,Completely empty,77,77,100.0,0,
+HighFallRisk,Target,77,0,0.0,77,integer

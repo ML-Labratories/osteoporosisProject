@@ -1,0 +1,2 @@
+variable,test,chi2_statistic,p_value,cramers_v,n
+Gender,Chi-square (no correction),0.076049,0.782724,0.031427,77

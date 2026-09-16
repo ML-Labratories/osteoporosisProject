@@ -1,0 +1,5 @@
+variable,group,n_controls,n_fallers,mean_controls,mean_fallers,std_controls,std_fallers,median_controls,median_fallers,levene_p,equal_variance,test_name,test_statistic,p_value,mann_whitney_U,mann_whitney_p,cohens_d,ci_95_lower,ci_95_upper,adjusted_p_value_bh
+Age,Controls_vs_Fallers,43,33,78.906601,77.82664,4.604143,5.02629,78.494182,78.236824,0.653697,yes,Student's t-test,0.973964,0.333248,772,0.515846,-0.225402,-3.278783,1.118861,0.444331
+Total x,Controls_vs_Fallers,43,29,0.951163,0.937931,0.039406,0.053247,0.966667,0.966667,0.099402,yes,Student's t-test,1.211545,0.229761,693,0.407817,-0.29112,-0.03591,0.009447,0.444331
+Totaly,Controls_vs_Fallers,43,31,116.55907,114.493871,57.305182,76.358141,111.3,86.2,0.247069,yes,Student's t-test,0.132974,0.894585,734,0.462924,-0.03133,-33.938689,29.808292,0.894585
+TUG,Controls_vs_Fallers,44,33,10.049318,13.246667,2.486664,5.262849,10.11,11.68,0.027346,no,Welch's t-test,-3.230049,0.002383,419,0.001605,0.815745,1.257191,5.137506,0.009532

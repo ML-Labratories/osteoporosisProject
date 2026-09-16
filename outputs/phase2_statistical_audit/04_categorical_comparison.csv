@@ -1,0 +1,5 @@
+variable,category,target_class,count
+Gender,0,0,16
+Gender,0,1,11
+Gender,1,0,28
+Gender,1,1,22

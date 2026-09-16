@@ -1,0 +1,5 @@
+variable,status,note
+Participant_ID,DEFINITE_LEAKAGE_IDENTIFIER,Traceability metadata; never a predictor
+HighFallRisk,TARGET,Target variable only
+سابفه سقوط,POSSIBLE_LIKELY_LEAKAGE,Spec flags as possible/likely leakage; exclude pending source verification
+(entire dataset),TEMPORAL_LEAKAGE_UNKNOWN,No temporal leakage can be ruled out from CSV alone
