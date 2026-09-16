@@ -1,0 +1,5 @@
+variable,N,shapiro_W,shapiro_p,skewness,kurtosis,shapiro_performed
+Age,76,0.97428,0.125058,-0.574325,0.424666,yes
+Total x,72,0.871132,3e-06,-0.918263,0.268613,yes
+Totaly,74,0.942769,0.002216,0.875238,0.676833,yes
+TUG,77,0.80066,0.0,2.201705,6.438273,yes

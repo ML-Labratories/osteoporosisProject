@@ -1,0 +1,5 @@
+variable,auc,auc_ci_lower,auc_ci_upper,exploratory_threshold,exploratory_sensitivity,exploratory_specificity,n,status
+Age,0.455955,0.329292,0.5859,83.0,0.212121,0.860465,76,exploratory
+Total x,0.443865,0.315925,0.575422,1.0,0.206897,0.813953,72,exploratory
+Totaly,0.449362,0.310266,0.583403,162.06,0.258065,0.837209,74,exploratory
+TUG,0.711433,0.599965,0.824539,12.54,0.424242,0.931818,77,exploratory

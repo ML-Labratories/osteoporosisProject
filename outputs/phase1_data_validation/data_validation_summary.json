@@ -1,0 +1,863 @@
+{
+  "phase": "phase1_data_validation",
+  "file_level": {
+    "path": "data/raw/elderly_data.csv",
+    "size_bytes": 5867,
+    "md5": "76ef4918f1787872b4bba3d6881bc5ac",
+    "sha256": "98a63e07dbcce81600ab2698dca15fc2b0f95b58809f9d0e6b96230b619a22f7",
+    "encoding": "utf-8",
+    "newline_style": "LF",
+    "bom_present": false,
+    "n_lines": 78,
+    "checks": [
+      {
+        "check": "file_exists",
+        "passed": true
+      },
+      {
+        "check": "file_readable",
+        "passed": true
+      },
+      {
+        "check": "file_not_empty",
+        "passed": true
+      },
+      {
+        "check": "encoding_decodable",
+        "passed": true,
+        "encoding": "utf-8"
+      },
+      {
+        "check": "csv_parseable",
+        "passed": true
+      },
+      {
+        "check": "delimiter_consistent",
+        "passed": true,
+        "observed_delimiter": ",",
+        "counts_per_line": {
+          "min": 29,
+          "max": 29
+        }
+      }
+    ]
+  },
+  "dataset_level": {
+    "n_rows": 77,
+    "n_columns": 30,
+    "expected_rows": 77,
+    "expected_columns": 30,
+    "rows_match_config": true,
+    "columns_match_config": true,
+    "column_names": [
+      "Participant_ID",
+      "Age",
+      "Gender",
+      "hight",
+      "weight",
+      "BMI",
+      "Education",
+      "Asa",
+      "heart Deases",
+      "surgery",
+      "x1",
+      "x2",
+      "x3",
+      "x4",
+      "x5",
+      "x6",
+      "x7",
+      "x8",
+      "x9",
+      "x10",
+      "x11",
+      "Total x",
+      "y1",
+      "y2",
+      "Totaly",
+      "TUG",
+      "سابفه سقوط",
+      "DLRT",
+      "Absolut error",
+      "HighFallRisk"
+    ],
+    "required_columns_present": {
+      "Participant_ID": true,
+      "HighFallRisk": true
+    }
+  },
+  "column_profiles": [
+    {
+      "column": "Participant_ID",
+      "inferred_type": "text",
+      "n_nonnull": 77,
+      "n_missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 77,
+      "example_values": [
+        "CO-001",
+        "CO-002",
+        "CO-003",
+        "CO-004",
+        "CO-005"
+      ]
+    },
+    {
+      "column": "Age",
+      "inferred_type": "float",
+      "n_nonnull": 76,
+      "n_missing": 1,
+      "missing_pct": 1.3,
+      "n_unique": 73,
+      "example_values": [
+        "75.16769336071184",
+        "82.92128678986995",
+        "75.34291581108829",
+        "69.18275154004107",
+        "77.61533196440794"
+      ],
+      "numeric": {
+        "min": 65.0,
+        "max": 89.0,
+        "mean": 78.437671,
+        "median": 78.451745
+      }
+    },
+    {
+      "column": "Gender",
+      "inferred_type": "integer",
+      "n_nonnull": 77,
+      "n_missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 2,
+      "example_values": [
+        "1",
+        "0"
+      ],
+      "numeric": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.649351,
+        "median": 1.0
+      },
+      "value_frequencies": {
+        "1": 50,
+        "0": 27
+      }
+    },
+    {
+      "column": "hight",
+      "inferred_type": "all_missing",
+      "n_nonnull": 0,
+      "n_missing": 77,
+      "missing_pct": 100.0,
+      "n_unique": 0,
+      "example_values": []
+    },
+    {
+      "column": "weight",
+      "inferred_type": "all_missing",
+      "n_nonnull": 0,
+      "n_missing": 77,
+      "missing_pct": 100.0,
+      "n_unique": 0,
+      "example_values": []
+    },
+    {
+      "column": "BMI",
+      "inferred_type": "all_missing",
+      "n_nonnull": 0,
+      "n_missing": 77,
+      "missing_pct": 100.0,
+      "n_unique": 0,
+      "example_values": []
+    },
+    {
+      "column": "Education",
+      "inferred_type": "all_missing",
+      "n_nonnull": 0,
+      "n_missing": 77,
+      "missing_pct": 100.0,
+      "n_unique": 0,
+      "example_values": []
+    },
+    {
+      "column": "Asa",
+      "inferred_type": "all_missing",
+      "n_nonnull": 0,
+      "n_missing": 77,
+      "missing_pct": 100.0,
+      "n_unique": 0,
+      "example_values": []
+    },
+    {
+      "column": "heart Deases",
+      "inferred_type": "all_missing",
+      "n_nonnull": 0,
+      "n_missing": 77,
+      "missing_pct": 100.0,
+      "n_unique": 0,
+      "example_values": []
+    },
+    {
+      "column": "surgery",
+      "inferred_type": "all_missing",
+      "n_nonnull": 0,
+      "n_missing": 77,
+      "missing_pct": 100.0,
+      "n_unique": 0,
+      "example_values": []
+    },
+    {
+      "column": "x1",
+      "inferred_type": "all_missing",
+      "n_nonnull": 0,
+      "n_missing": 77,
+      "missing_pct": 100.0,
+      "n_unique": 0,
+      "example_values": []
+    },
+    {
+      "column": "x2",
+      "inferred_type": "all_missing",
+      "n_nonnull": 0,
+      "n_missing": 77,
+      "missing_pct": 100.0,
+      "n_unique": 0,
+      "example_values": []
+    },
+    {
+      "column": "x3",
+      "inferred_type": "all_missing",
+      "n_nonnull": 0,
+      "n_missing": 77,
+      "missing_pct": 100.0,
+      "n_unique": 0,
+      "example_values": []
+    },
+    {
+      "column": "x4",
+      "inferred_type": "all_missing",
+      "n_nonnull": 0,
+      "n_missing": 77,
+      "missing_pct": 100.0,
+      "n_unique": 0,
+      "example_values": []
+    },
+    {
+      "column": "x5",
+      "inferred_type": "all_missing",
+      "n_nonnull": 0,
+      "n_missing": 77,
+      "missing_pct": 100.0,
+      "n_unique": 0,
+      "example_values": []
+    },
+    {
+      "column": "x6",
+      "inferred_type": "all_missing",
+      "n_nonnull": 0,
+      "n_missing": 77,
+      "missing_pct": 100.0,
+      "n_unique": 0,
+      "example_values": []
+    },
+    {
+      "column": "x7",
+      "inferred_type": "all_missing",
+      "n_nonnull": 0,
+      "n_missing": 77,
+      "missing_pct": 100.0,
+      "n_unique": 0,
+      "example_values": []
+    },
+    {
+      "column": "x8",
+      "inferred_type": "all_missing",
+      "n_nonnull": 0,
+      "n_missing": 77,
+      "missing_pct": 100.0,
+      "n_unique": 0,
+      "example_values": []
+    },
+    {
+      "column": "x9",
+      "inferred_type": "all_missing",
+      "n_nonnull": 0,
+      "n_missing": 77,
+      "missing_pct": 100.0,
+      "n_unique": 0,
+      "example_values": []
+    },
+    {
+      "column": "x10",
+      "inferred_type": "all_missing",
+      "n_nonnull": 0,
+      "n_missing": 77,
+      "missing_pct": 100.0,
+      "n_unique": 0,
+      "example_values": []
+    },
+    {
+      "column": "x11",
+      "inferred_type": "all_missing",
+      "n_nonnull": 0,
+      "n_missing": 77,
+      "missing_pct": 100.0,
+      "n_unique": 0,
+      "example_values": []
+    },
+    {
+      "column": "Total x",
+      "inferred_type": "float",
+      "n_nonnull": 72,
+      "n_missing": 5,
+      "missing_pct": 6.49,
+      "n_unique": 6,
+      "example_values": [
+        "0.9666666666666667",
+        "0.9",
+        "0.9333333333333333",
+        "1.0",
+        "0.8666666666666667"
+      ],
+      "numeric": {
+        "min": 0.833333,
+        "max": 1.0,
+        "mean": 0.945833,
+        "median": 0.966667
+      },
+      "value_frequencies": {
+        "0.9666666666666667": 27,
+        "0.9333333333333333": 15,
+        "1.0": 14,
+        "0.9": 8,
+        "0.8666666666666667": 4,
+        "0.8333333333333334": 4
+      }
+    },
+    {
+      "column": "y1",
+      "inferred_type": "all_missing",
+      "n_nonnull": 0,
+      "n_missing": 77,
+      "missing_pct": 100.0,
+      "n_unique": 0,
+      "example_values": []
+    },
+    {
+      "column": "y2",
+      "inferred_type": "all_missing",
+      "n_nonnull": 0,
+      "n_missing": 77,
+      "missing_pct": 100.0,
+      "n_unique": 0,
+      "example_values": []
+    },
+    {
+      "column": "Totaly",
+      "inferred_type": "float",
+      "n_nonnull": 74,
+      "n_missing": 3,
+      "missing_pct": 3.9,
+      "n_unique": 74,
+      "example_values": [
+        "122.65",
+        "97.72",
+        "68.6",
+        "148.05",
+        "111.08"
+      ],
+      "numeric": {
+        "min": 14.35,
+        "max": 337.92,
+        "mean": 115.693919,
+        "median": 106.595
+      }
+    },
+    {
+      "column": "TUG",
+      "inferred_type": "float",
+      "n_nonnull": 77,
+      "n_missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 73,
+      "example_values": [
+        "8.0",
+        "7.58",
+        "11.0",
+        "9.56",
+        "11.82"
+      ],
+      "numeric": {
+        "min": 6.24,
+        "max": 30.25,
+        "mean": 11.41961,
+        "median": 10.78
+      }
+    },
+    {
+      "column": "سابفه سقوط",
+      "inferred_type": "integer",
+      "n_nonnull": 75,
+      "n_missing": 2,
+      "missing_pct": 2.6,
+      "n_unique": 10,
+      "example_values": [
+        "1.0",
+        "0.0",
+        "5.0",
+        "2.0",
+        "10.0"
+      ],
+      "numeric": {
+        "min": 0.0,
+        "max": 10.0,
+        "mean": 1.88,
+        "median": 1.0
+      },
+      "value_frequencies": {
+        "0.0": 36,
+        "2.0": 11,
+        "1.0": 8,
+        "3.0": 6,
+        "6.0": 3,
+        "10.0": 3,
+        "4.0": 3,
+        "5.0": 2,
+        "8.0": 2,
+        "7.0": 1
+      }
+    },
+    {
+      "column": "DLRT",
+      "inferred_type": "all_missing",
+      "n_nonnull": 0,
+      "n_missing": 77,
+      "missing_pct": 100.0,
+      "n_unique": 0,
+      "example_values": []
+    },
+    {
+      "column": "Absolut error",
+      "inferred_type": "all_missing",
+      "n_nonnull": 0,
+      "n_missing": 77,
+      "missing_pct": 100.0,
+      "n_unique": 0,
+      "example_values": []
+    },
+    {
+      "column": "HighFallRisk",
+      "inferred_type": "integer",
+      "n_nonnull": 77,
+      "n_missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 2,
+      "example_values": [
+        "0",
+        "1"
+      ],
+      "numeric": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.428571,
+        "median": 0.0
+      },
+      "value_frequencies": {
+        "0": 44,
+        "1": 33
+      }
+    }
+  ],
+  "missingness": {
+    "representations": {
+      "empty_string": 1705,
+      "whitespace_only": 0
+    },
+    "n_missing_cells": 1705,
+    "n_total_cells": 2310,
+    "overall_missing_pct": 73.81,
+    "table": [
+      {
+        "column": "Participant_ID",
+        "n_nonnull": 77,
+        "n_missing": 0,
+        "missing_pct": 0.0
+      },
+      {
+        "column": "Age",
+        "n_nonnull": 76,
+        "n_missing": 1,
+        "missing_pct": 1.3
+      },
+      {
+        "column": "Gender",
+        "n_nonnull": 77,
+        "n_missing": 0,
+        "missing_pct": 0.0
+      },
+      {
+        "column": "hight",
+        "n_nonnull": 0,
+        "n_missing": 77,
+        "missing_pct": 100.0
+      },
+      {
+        "column": "weight",
+        "n_nonnull": 0,
+        "n_missing": 77,
+        "missing_pct": 100.0
+      },
+      {
+        "column": "BMI",
+        "n_nonnull": 0,
+        "n_missing": 77,
+        "missing_pct": 100.0
+      },
+      {
+        "column": "Education",
+        "n_nonnull": 0,
+        "n_missing": 77,
+        "missing_pct": 100.0
+      },
+      {
+        "column": "Asa",
+        "n_nonnull": 0,
+        "n_missing": 77,
+        "missing_pct": 100.0
+      },
+      {
+        "column": "heart Deases",
+        "n_nonnull": 0,
+        "n_missing": 77,
+        "missing_pct": 100.0
+      },
+      {
+        "column": "surgery",
+        "n_nonnull": 0,
+        "n_missing": 77,
+        "missing_pct": 100.0
+      },
+      {
+        "column": "x1",
+        "n_nonnull": 0,
+        "n_missing": 77,
+        "missing_pct": 100.0
+      },
+      {
+        "column": "x2",
+        "n_nonnull": 0,
+        "n_missing": 77,
+        "missing_pct": 100.0
+      },
+      {
+        "column": "x3",
+        "n_nonnull": 0,
+        "n_missing": 77,
+        "missing_pct": 100.0
+      },
+      {
+        "column": "x4",
+        "n_nonnull": 0,
+        "n_missing": 77,
+        "missing_pct": 100.0
+      },
+      {
+        "column": "x5",
+        "n_nonnull": 0,
+        "n_missing": 77,
+        "missing_pct": 100.0
+      },
+      {
+        "column": "x6",
+        "n_nonnull": 0,
+        "n_missing": 77,
+        "missing_pct": 100.0
+      },
+      {
+        "column": "x7",
+        "n_nonnull": 0,
+        "n_missing": 77,
+        "missing_pct": 100.0
+      },
+      {
+        "column": "x8",
+        "n_nonnull": 0,
+        "n_missing": 77,
+        "missing_pct": 100.0
+      },
+      {
+        "column": "x9",
+        "n_nonnull": 0,
+        "n_missing": 77,
+        "missing_pct": 100.0
+      },
+      {
+        "column": "x10",
+        "n_nonnull": 0,
+        "n_missing": 77,
+        "missing_pct": 100.0
+      },
+      {
+        "column": "x11",
+        "n_nonnull": 0,
+        "n_missing": 77,
+        "missing_pct": 100.0
+      },
+      {
+        "column": "Total x",
+        "n_nonnull": 72,
+        "n_missing": 5,
+        "missing_pct": 6.49
+      },
+      {
+        "column": "y1",
+        "n_nonnull": 0,
+        "n_missing": 77,
+        "missing_pct": 100.0
+      },
+      {
+        "column": "y2",
+        "n_nonnull": 0,
+        "n_missing": 77,
+        "missing_pct": 100.0
+      },
+      {
+        "column": "Totaly",
+        "n_nonnull": 74,
+        "n_missing": 3,
+        "missing_pct": 3.9
+      },
+      {
+        "column": "TUG",
+        "n_nonnull": 77,
+        "n_missing": 0,
+        "missing_pct": 0.0
+      },
+      {
+        "column": "سابفه سقوط",
+        "n_nonnull": 75,
+        "n_missing": 2,
+        "missing_pct": 2.6
+      },
+      {
+        "column": "DLRT",
+        "n_nonnull": 0,
+        "n_missing": 77,
+        "missing_pct": 100.0
+      },
+      {
+        "column": "Absolut error",
+        "n_nonnull": 0,
+        "n_missing": 77,
+        "missing_pct": 100.0
+      },
+      {
+        "column": "HighFallRisk",
+        "n_nonnull": 77,
+        "n_missing": 0,
+        "missing_pct": 0.0
+      }
+    ]
+  },
+  "duplicates": {
+    "complete_duplicate_rows": {
+      "method": "duplicated() over whitespace-stripped cell strings",
+      "n_rows_flagged": 0,
+      "n_rows_involved": 0,
+      "rows": []
+    },
+    "duplicate_participant_ids": {
+      "n_duplicates": 0,
+      "ids": []
+    },
+    "cross_cohort_identical_measurement_rows": 0,
+    "shared_numeric_id_suffixes": [
+      "001",
+      "004",
+      "005",
+      "006",
+      "007",
+      "008",
+      "009",
+      "010",
+      "011",
+      "013",
+      "014",
+      "015",
+      "016",
+      "017",
+      "018",
+      "019",
+      "020",
+      "021",
+      "022",
+      "023",
+      "024",
+      "025",
+      "026",
+      "027",
+      "028",
+      "029",
+      "030",
+      "031",
+      "032",
+      "033",
+      "034",
+      "035",
+      "036"
+    ],
+    "shared_suffix_note": "Numeric ID suffixes are shared between the CO and FL cohorts (each cohort is numbered independently, e.g. CO-001 and FL-001). This is an expected cohort-relative numbering pattern, not an error."
+  },
+  "identifier": {
+    "column": "Participant_ID",
+    "n_rows": 77,
+    "n_unique": 77,
+    "n_missing": 0,
+    "n_duplicates": 0,
+    "format_regex": "^[A-Za-z]{2}-\\d{3}$",
+    "all_match_format": true,
+    "prefix_counts": {
+      "CO": 44,
+      "FL": 33
+    },
+    "sample_ids": [
+      "CO-001",
+      "CO-002",
+      "CO-003",
+      "CO-004",
+      "CO-005"
+    ]
+  },
+  "target": {
+    "column": "HighFallRisk",
+    "n_rows": 77,
+    "n_missing": 0,
+    "values": [
+      "0",
+      "1"
+    ],
+    "n_classes": 2,
+    "is_binary": true,
+    "class_counts": {
+      "0": 44,
+      "1": 33
+    },
+    "expected_class_counts": {
+      "0": 44,
+      "1": 33
+    },
+    "class_counts_difference": null,
+    "unexpected_values": [],
+    "cohort_alignment": {
+      "hypothesis": "CO prefix -> 0, FL prefix -> 1 (per project spec)",
+      "n_checked": 77,
+      "n_aligned": 77,
+      "aligned": true,
+      "misaligned_rows": []
+    }
+  },
+  "leakage_flags": [
+    {
+      "variable": "Participant_ID",
+      "status": "DEFINITE_LEAKAGE_IDENTIFIER",
+      "note": "Participant_ID is traceability metadata and must never be a predictor."
+    },
+    {
+      "variable": "HighFallRisk",
+      "status": "TARGET",
+      "note": "HighFallRisk is the target only."
+    },
+    {
+      "variable": "سابفه سقوط",
+      "internal_name": "fall_history",
+      "status": "POSSIBLE_LIKELY_LEAKAGE",
+      "note": "Spec flags fall history as possible/likely leakage; exclude from modelling until its relationship to cohort assignment is verified from original source documentation.",
+      "descriptive_evidence": {
+        "description": "Descriptive only: fall-history distribution is strongly cohort-asymmetric, consistent with the spec's possible/likely leakage flag.",
+        "mean_fall_history_by_cohort": {
+          "CO": 0.186,
+          "FL": 4.1562
+        }
+      }
+    },
+    {
+      "variable": null,
+      "status": "TEMPORAL_LEAKAGE_UNKNOWN",
+      "note": "No temporal leakage can be ruled out from the CSV alone (outcome timing relative to measurements is undocumented)."
+    }
+  ],
+  "all_empty_columns": [
+    "hight",
+    "weight",
+    "BMI",
+    "Education",
+    "Asa",
+    "heart Deases",
+    "surgery",
+    "x1",
+    "x2",
+    "x3",
+    "x4",
+    "x5",
+    "x6",
+    "x7",
+    "x8",
+    "x9",
+    "x10",
+    "x11",
+    "y1",
+    "y2",
+    "DLRT",
+    "Absolut error"
+  ],
+  "column_name_issues": [
+    {
+      "type": "non_ascii_column_name",
+      "column": "سابفه سقوط",
+      "internal_name": "fall_history",
+      "encoding_status": "decodes_cleanly_as_utf8_no_mojibake",
+      "note": "Persian fall-history column name preserved verbatim; no silent rename or reinterpretation."
+    }
+  ],
+  "column_name_mapping": {
+    "سابفه سقوط": "fall_history"
+  },
+  "warnings": [],
+  "ambiguities": [
+    {
+      "item": "target_source_definition",
+      "note": "Per spec, the CSV supports interpreting HighFallRisk as the original LTMM Controls-vs-Fallers cohort label (44/33), not yet as an independently validated clinical high-fall-risk score. Definition status: REQUIRES_VERIFICATION."
+    },
+    {
+      "item": "fall_history_vs_label_assignment",
+      "note": "Whether 'سابفه سقوط' (fall history) was part of the label/cohort assignment is unverified; this drives the leakage decision."
+    },
+    {
+      "item": "temporal_design",
+      "note": "Retrospective vs prospective classification, observation period, and timing of measurements relative to outcome are undocumented in the CSV."
+    },
+    {
+      "item": "gender_coding_direction",
+      "note": "Gender is binary 0/1 but the meaning of each code is not documented."
+    },
+    {
+      "item": "total_x_totaly_semantics",
+      "note": "Do not claim Total x = normalized MMSE or Totaly = PASE without source documentation proving it (spec rule)."
+    },
+    {
+      "item": "age_value_precision",
+      "note": "Age values carry 14-15 significant digits, consistent with computed/derived values; the generating calculation is undocumented in the source."
+    }
+  ],
+  "critical_conditions": {
+    "required_columns_present": true,
+    "rows_match_config": true,
+    "columns_match_config": true,
+    "delimiter_matches_config": true,
+    "file_level_checks_pass": true
+  },
+  "failures": [],
+  "critical_checks_passed": true
+}
