@@ -1,0 +1,10 @@
+check,value,status
+outer_cv_random_state,42,PASS
+inner_cv_random_state,42,PASS
+logistic_regression_random_state,42,PASS
+linear_svc_random_state,42,PASS
+random_forest_random_state,42,PASS
+gridsearch_n_jobs,1,PASS
+gridsearch_refit,True,PASS
+numerical_reproducibility,Not verified (pipeline too slow to re-run),NOT_VERIFIED
+code_level_determinism,Confirmed - all random seeds fixed,PASS
